@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Check if heart_rate_log.txt exists
 if [ ! -f heart_rate_log.txt ]; then
