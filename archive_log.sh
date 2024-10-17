@@ -10,10 +10,10 @@ fi
 timestamp=$(date '+%Y%m%d_%H%M%S')
 
 # Construct the new filename
-new_filename="heart_rate_log.txt_$timestamp"
+newarchive_filename="heart_rate_log.txt_$timestamp"
 
 # Rename (archive) the log file
-mv heart_rate_log.txt "$new_filename"
+mv heart_rate_log.txt "$newarchive_filename"
 
 # Confirm the operation
-echo "Log file archived as $new_filename"
+echo "Log file archived as $newarchive_filename"
