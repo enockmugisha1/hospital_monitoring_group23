@@ -122,7 +122,7 @@ This repository contains scripts for monitoring, archiving, and backing up heart
 
 3. **Archival and Backup (backup_archives.sh)**
    - This script moves the archived log files to the `archived_logs_group23` directory and securely backs them up to a remote server via SSH.
-   - The backup process uses Team member **Betelhem** sandbox credentials for the remote server.
+   - The backup process uses Team member **Betelhem's** sandbox credentials for the remote server.
    - **Usage:**
      ```bash
      ./backup_archives.sh
