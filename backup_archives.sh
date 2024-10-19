@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+user_info="3ae059f69074"
+host="3ae059f69074.079e7915.alu-cod.online"
+
 # Sets the name of the archive directory.
 arch_dir="archived_logs_group23"
 
@@ -17,3 +20,11 @@ for each_file in heart_rate_log.txt_*; do
         mv "$each_file" "$arch_dir"
     fi
 done
+
+scp -r "$arch_dir" "$user_info"@"$host":/home/
+
+if [ $? -eq 0 ]; then
+    echo "It's a successful script"
+else
+    echo "fix your code something is wrong somewhere"
+fi
