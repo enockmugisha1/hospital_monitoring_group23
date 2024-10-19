@@ -1,4 +1,4 @@
-# Hospital Monitoring System - Group 23
+# Hospital Monitoring System Group 23
 
 This project helps monitor heart rates in a hospital by saving heart rate data, archiving the logs, and backing them up to a remote server.
 
@@ -122,13 +122,13 @@ This repository contains scripts for monitoring, archiving, and backing up heart
 
 3. **Archival and Backup (backup_archives.sh)**
    - This script moves the archived log files to the `archived_logs_group23` directory and securely backs them up to a remote server via SSH.
-   - The backup process uses Team member **Munana's** sandbox credentials for the remote server.
+   - The backup process uses Team member **Betelhem** sandbox credentials for the remote server.
    - **Usage:**
      ```bash
      ./backup_archives.sh
      ```
    - All archived logs will be moved to the `archived_logs_group23` directory.
-   - The script will back up the files to Betty's server in the home directory using `scp` with SSH authentication.
+   - The script will back up the files to Betelhem's server in the home directory using `scp` with SSH authentication.
 
 ## Submission Details
 - **GitHub Repository:** hospital_monitoring_group23
