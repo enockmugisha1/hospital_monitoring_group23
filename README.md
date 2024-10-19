@@ -8,7 +8,7 @@ if [ ! -f heart_rate_log.txt ]; then
     exit 1
 fi
 
-# Get the current timestamp in the format YYYYMMDD_HHMMSS
+#Get the current timestamp in the format YYYYMMDD_HHMMSS
 timestamp=$(date '+%Y%m%d_%H%M%S')
 
 # Construct the new filename
